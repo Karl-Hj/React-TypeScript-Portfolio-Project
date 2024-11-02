@@ -1,0 +1,15 @@
+ useEffect(() => {
+    const lamp = lampRef.current;
+    if (lamp) {
+      const interval = setInterval(() => {
+        const computedStyles = window.getComputedStyle(lamp);
+        const display = computedStyles.display;
+        const lampLightPosition = lamp.getBoundingClientRect();
+        if (display === "block") {
+          generateRandomNumber();
+          console.log(lampLightPosition);
+        }
+      }, randomValue + 300);
+      return () => clearInterval(interval);
+    }
+  }, [randomValue, generateRandomNumber]);

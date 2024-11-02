@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.mask-video__container {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  top: 5%;
+}
+
+.mask-video {
+  height: 250px;
+  width: 360px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  top: 10%;
+}
+rect {
+  position: absolute;
+  height: 70%;
+  width: 100vw;
+  fill: white;
+  mask: url(#mask);
+  mask-size: 100%;
+}
+.travel-text {
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.14rem;
+}
+.travel-video {
+  width: 450px;
+  min-width: 450px;
+  height: 190px;
+  min-height: 190px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+  z-index: 2;
+}
+/* Mobile landscape @media (max-width: 959px) and (orientation: landscape) {
+  .travel-text {
+    transform: translateY(-1%);
+  }
+  .travel-video {
+    top: 1%;
+  }
+}
+@media (min-width: 2560px) {
+  .travel-text {
+    transform: translateY(-10%);
+  }
+  .travel-video {
+    width: 50vw;
+    height: 50vh;
+  }
+} */

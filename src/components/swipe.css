@@ -1,0 +1,29 @@
+.swipe-container {
+  position: relative;
+  width: 80%;
+  height: 70%;
+  background: pink;
+  top: -5%;
+  margin: auto;
+}
+
+.image {
+  height: 20em;
+  width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.text {
+  margin-top: 0px;
+  height: 20%;
+  width: 100%;
+}
+.slick-dots {
+  position: absolute;
+  margin: 0;
+  top: 165%;
+  margin-bottom: 0px;
+}
