@@ -1,7 +1,7 @@
 import { Home } from "../pages/Home";
 import { Travel } from "../pages/Travel";
 
-import "./container.css";
+import "./css/container.css";
 
 //Conteiner function that contains and loads all pages
 export function Container() {

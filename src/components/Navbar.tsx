@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { useToggle } from "./costumHooks/useToggle";
-import "./navBar.css";
+import "./css/navBar.css";
 
 //Navbar that also loads in the container page
 

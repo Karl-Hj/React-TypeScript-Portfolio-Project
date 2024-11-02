@@ -7,8 +7,8 @@
   margin: auto;
 }
 
-.image {
-  height: 20em;
+.images-container {
+  height: 50%;
   width: 100%;
 }
 
@@ -16,14 +16,8 @@ img {
   height: 100%;
   width: 100%;
 }
-.text {
+/* .text {
   margin-top: 0px;
   height: 20%;
   width: 100%;
-}
-.slick-dots {
-  position: absolute;
-  margin: 0;
-  top: 165%;
-  margin-bottom: 0px;
-}
+} */

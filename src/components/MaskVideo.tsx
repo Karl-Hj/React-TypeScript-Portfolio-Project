@@ -1,5 +1,5 @@
 import TravelVideo from "../assets/videos/travel.mp4";
-import "./maskVideo.css";
+import "./css/maskVideo.css";
 
 export function MaskVideo() {
   return (
