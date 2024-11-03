@@ -7,6 +7,7 @@ export function Travel() {
   return (
     <div className="travel-container">
       <MaskVideo />
+
       <Swipe />
     </div>
   );

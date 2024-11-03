@@ -20,7 +20,7 @@ export function MaskVideo() {
         </defs>
         <rect x="0" y="0" width="100%" height="100%" />
       </svg>
-      <video className="travel-video" autoPlay loop>
+      <video className="travel-video" autoPlay loop muted>
         <source src={TravelVideo} type="video/mp4" />
       </video>
     </div>
