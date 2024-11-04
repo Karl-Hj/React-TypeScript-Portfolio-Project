@@ -41,12 +41,44 @@ rect {
   top: 10%;
   z-index: 2;
 }
-/* Mobile landscape @media (max-width: 959px) and (orientation: landscape) {
-  .travel-text {
-    transform: translateY(-1%);
+/* Mobile landscape  */
+@media (max-width: 809px) and (orientation: landscape) {
+  .mask-video__container {
+    height: 110px;
+    max-height: 110px;
+    top: 2%;
   }
+  .mask-video {
+    height: 200px;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    top: -50%;
+  }
+  rect {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    fill: white;
+    mask: url(#mask);
+    mask-size: 100%;
+  }
+
   .travel-video {
-    top: 1%;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    top: -100%;
+    z-index: 0;
+    margin: 0px;
+    padding: 0px;
   }
 }
 @media (min-width: 2560px) {
@@ -57,4 +89,4 @@ rect {
     width: 50vw;
     height: 50vh;
   }
-} */
+}

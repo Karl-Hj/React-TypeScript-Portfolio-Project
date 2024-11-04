@@ -89,3 +89,30 @@ img {
 .close-tag::after {
   transform: rotate(-45deg);
 }
+@media (max-width: 959px) and (orientation: landscape) {
+  .swipe-container {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+    z-index: 2;
+  }
+
+  img {
+    height: 10em;
+    width: 100%;
+  }
+  .text {
+    height: 4em;
+  }
+  .inner-text {
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+  }
+  .expand {
+    overflow: auto;
+  }
+}
