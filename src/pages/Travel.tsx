@@ -27,7 +27,7 @@ export function Travel() {
   return (
     <div className="travel-container" ref={widthRef}>
       <MaskVideo />
-      {width < 810 ? <Swipe /> : <Beach />}
+      {width < 960 ? <Swipe /> : <Beach />}
     </div>
   );
 }

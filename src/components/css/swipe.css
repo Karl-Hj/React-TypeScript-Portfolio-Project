@@ -89,7 +89,7 @@ img {
 .close-tag::after {
   transform: rotate(-45deg);
 }
-@media (max-width: 959px) and (orientation: landscape) {
+@media screen and (max-width: 959px) and (orientation: landscape) {
   .swipe-container {
     position: absolute;
     width: 50%;

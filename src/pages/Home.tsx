@@ -1,7 +1,6 @@
 import "./home.css";
 
 export function Home() {
-  console.log(window.innerWidth);
   return (
     <div className="home-container">
       <div className="mask-container">
