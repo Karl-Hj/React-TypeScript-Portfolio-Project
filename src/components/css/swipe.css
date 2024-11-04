@@ -97,12 +97,14 @@ img {
     margin: auto;
     left: 50%;
     transform: translateX(-50%);
-    top: 25%;
+    top: 40%;
     z-index: 2;
   }
-
+  .close-tag {
+    top: -6%;
+  }
   img {
-    height: 10em;
+    height: 8em;
     width: 100%;
   }
   .text {
@@ -114,5 +116,11 @@ img {
   }
   .expand {
     overflow: auto;
+  }
+  .expand-text {
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 }

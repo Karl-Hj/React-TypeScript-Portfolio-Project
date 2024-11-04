@@ -1,27 +1,29 @@
 import TravelVideo from "../assets/videos/travel.mp4";
+import "./css/maskVideo.css";
 
 export function MaskVideo() {
   return (
     <div className="mask-video__container">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="xMidYMid slice"
-        className="mask-video"
-      >
+      <video autoPlay muted loop>
+        <source src={TravelVideo} type="video/mp4"></source>
+      </video>
+      <svg className="svg-travel">
         <defs>
-          <mask x="0" y="0" id="mask" width="100%" height="100%">
-            <rect width="100%" height="100%" />
-            <text className="travel-text" x="50" y="50" textAnchor="middle">
+          <mask id="mask" x="0" y="0" height="100%" width="100%">
+            <rect x="0" y="0" height="100%" width="100%" />
+            <text
+              className="text-travel"
+              x="50%"
+              y="50%"
+              fill="red"
+              textAnchor="middle"
+            >
               Travel
             </text>
           </mask>
         </defs>
-        <rect x="0" y="0" width="100%" height="100%" />
+        <rect x="0" y="0" height="100%" width="100%" />
       </svg>
-      <video className="travel-video" autoPlay loop muted>
-        <source src={TravelVideo} type="video/mp4" />
-      </video>
     </div>
   );
 }

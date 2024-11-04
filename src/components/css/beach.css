@@ -2,6 +2,18 @@
   position: absolute;
   height: 80vh;
   width: 100%;
-  background: red;
-  z-index: 5;
+
+  overflow: hidden;
+
+  top: -0%;
 }
+
+/* .beach-video {
+  position: absolute;
+  height: 100vh;
+  width: 120vw;
+  margin: 0px;
+  padding: 0px;
+  transform: rotate(180deg);
+  z-index: 8;
+} */

@@ -1,10 +1,9 @@
 // import travelVideo from "../assets/videos/travel.mp4";
 import { MaskVideo } from "../components/MaskVideo";
+import { Beach } from "../components/Beach";
 import { Swipe } from "../components/Swipe";
-import "./travel.css";
 import "../components/css/maskVideo.css";
 import { useEffect, useRef, useState } from "react";
-import { Beach } from "../components/Beach";
 import "./travel.css";
 import "../components/css/maskVideo.css";
 import "../components/css/beach.css";
