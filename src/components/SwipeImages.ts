@@ -13,7 +13,8 @@ export const images: SwipeElements[] = [
     alt: "Random travel picture",
     destination: "Costa Rica",
     price: 1000,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
   },
   {
     id: crypto.randomUUID(),
@@ -21,7 +22,8 @@ export const images: SwipeElements[] = [
     alt: "Random travel picture",
     destination: "Malaysia",
     price: 1800,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
   },
   {
     id: crypto.randomUUID(),
@@ -29,7 +31,8 @@ export const images: SwipeElements[] = [
     alt: "Random travel picture",
     destination: "Thailand",
     price: 2000,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
   },
   {
     id: crypto.randomUUID(),
@@ -37,7 +40,8 @@ export const images: SwipeElements[] = [
     alt: "Random travel picture",
     destination: "Fiji",
     price: 2500,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
   },
   {
     id: crypto.randomUUID(),
@@ -45,7 +49,8 @@ export const images: SwipeElements[] = [
     alt: "Random travel picture",
     destination: "Madagascar",
     price: 1700,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
   },
   {
     id: crypto.randomUUID(),
@@ -53,6 +58,7 @@ export const images: SwipeElements[] = [
     alt: "Random travel picture",
     destination: "Vietnam",
     price: 3000,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mauris mattis, mattis sapien efficitur, scelerisque magna. Phasellus urna ex, cursus non urna ac, porta placerat nibh. Maecenas at molestie erat, ut commodo nisi. Suspendisse sed quam diam. Curabitur tempor pretium erat bibendum efficitur. Sed malesuada vehicula metus, vitae cursus ligula faucibus nec. Etiam pellentesque rhoncus erat, nec mollis tortor commodo ut. Mauris commodo ex vel ante iaculis molestie. Aliquam porta ut nibh quis posuere. Cras finibus ex sit amet sapien porta commodo ac vitae neque. Vivamus rutrum, ipsum eu fermentum consequat, leo dolor sollicitudin diam, sit amet rhoncus ligula nisl eu purus. Aliquam lacinia vitae elit id rhoncus. Suspendisse mattis, mi nec vulputate fermentum, libero massa cursus tellus, a facilisis nisi tortor ut leo. ",
   },
 ];
