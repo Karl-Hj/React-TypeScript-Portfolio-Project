@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import "./travel.css";
 import "../components/css/maskVideo.css";
 import "../components/css/beach.css";
+
 export function Travel() {
   const widthRef = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState<number>(0);

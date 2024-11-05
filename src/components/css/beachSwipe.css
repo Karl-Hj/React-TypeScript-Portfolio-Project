@@ -1,0 +1,46 @@
+.beach-carusal-container {
+  position: absolute;
+  top: 25%;
+  width: 90%;
+  height: 50%;
+  z-index: 4;
+}
+
+.slides {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.beach-text-container {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(160, 158, 158, 0.3),
+    rgba(123, 123, 121, 0.5)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+}
+
+.travel-information {
+  position: relative;
+  top: 13%;
+  height: 40%;
+  width: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(160, 158, 158, 0.3),
+    rgba(123, 123, 121, 0.5)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 0px 0px 10px 10px;
+  z-index: 4;
+  display: none;
+}

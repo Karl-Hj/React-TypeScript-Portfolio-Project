@@ -1,3 +1,6 @@
+import { BeachSwipe } from "./BeachSwipe";
+import { images } from "./SwipeImages";
+
 export function Beach() {
   return (
     <>
@@ -5,6 +8,7 @@ export function Beach() {
         <div className="mask-container__beach">
           <div className="beach-background" />
         </div>
+        <BeachSwipe images={images} />
       </div>
     </>
   );
