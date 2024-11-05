@@ -3,6 +3,7 @@ export interface SwipeElements {
   src: string;
   alt: string;
   destination: string;
+  days: number;
   price: number;
   description: string;
 }

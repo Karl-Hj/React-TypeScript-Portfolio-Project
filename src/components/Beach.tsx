@@ -3,7 +3,7 @@ export function Beach() {
     <>
       <div className="beach-container">
         <div className="mask-container__beach">
-          <div className="beach-background"></div>
+          <div className="beach-background" />
         </div>
       </div>
     </>
